@@ -1,0 +1,31 @@
+
+table{
+    width: 900px;
+    margin-top: 5em;
+    margin-left: 30em;
+}
+
+th{
+    text-align: left;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+caption{
+    margin-bottom: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    background-color: #a4b0be;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(219, 217, 214);
+}
